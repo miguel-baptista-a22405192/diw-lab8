@@ -1,0 +1,86 @@
+[
+  {
+    "title": "HTML",
+    "image": "html.svg",
+    "description": "Linguagem de marcação usada para estruturar páginas web.",
+    "rating": 5
+  },
+  {
+    "title": "CSS",
+    "image": "css.svg",
+    "description": "Responsável pelos estilos visuais das páginas.",
+    "rating": 4
+  },
+  {
+    "title": "Tailwind CSS",
+    "image": "tailwind.svg",
+    "description": "Framework CSS utilitária e altamente produtiva.",
+    "rating": 5
+  },
+  {
+    "title": "JavaScript",
+    "image": "javascript.svg",
+    "description": "Linguagem essencial para dinamismo na web.",
+    "rating": 5
+  },
+  {
+    "title": "Typescript",
+    "image": "typescript.svg",
+    "description": "Superset tipado de JavaScript que melhora segurança.",
+    "rating": 5
+  },
+  {
+    "title": "JSON",
+    "image": "json.svg",
+    "description": "Formato leve para troca de dados.",
+    "rating": 4
+  },
+  {
+    "title": "API RESTful",
+    "image": "rest.svg",
+    "description": "Padrão de comunicação entre cliente e servidor.",
+    "rating": 5
+  },
+  {
+    "title": "Swagger",
+    "image": "swagger.svg",
+    "description": "Ferramenta para documentação de APIs.",
+    "rating": 4
+  },
+  {
+    "title": "GitHub",
+    "image": "github.svg",
+    "description": "Plataforma de alojamento e colaboração de código.",
+    "rating": 5
+  },
+  {
+    "title": "Codespaces",
+    "image": "codespaces.svg",
+    "description": "Ambiente de desenvolvimento cloud do GitHub.",
+    "rating": 4
+  },
+  {
+    "title": "GitHub Pages",
+    "image": "githubpages.svg",
+    "description": "Serviço para alojar sites estáticos gratuitamente.",
+    "rating": 5
+  },
+  {
+    "title": "React.js",
+    "image": "react.svg",
+    "description": "Biblioteca para construção de interfaces modernas.",
+    "rating": 5
+  },
+  {
+    "title": "Next.js",
+    "image": "nextjs.svg",
+    "description": "Framework React focada em performance.",
+    "rating": 5
+  },
+  {
+    "title": "Vercel",
+    "image": "vercel.svg",
+    "description": "Plataforma de deploy otimizada para projetos Next.js.",
+    "rating": 5
+  }
+]
