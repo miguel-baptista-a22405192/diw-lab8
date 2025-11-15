@@ -1,4 +1,4 @@
-export default function Page() {
+export default function page() {
   return (
     <div>
       <h2>Interfaces Modernos</h2>

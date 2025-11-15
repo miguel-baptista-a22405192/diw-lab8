@@ -3,7 +3,7 @@
 import Image from "next/image";
 import tecnologias from "@/app/data/tecnologias.json";
 
-export default function Page() {
+export default function page() {
   const lista = JSON.parse(JSON.stringify(tecnologias));
 
   return (

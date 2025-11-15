@@ -1,6 +1,6 @@
 "use client";
 
-export default function Page() {
+export default function page() {
 
   const caracteristicas = [
     "JSX, sintaxe que mistura HTML e JS.",
