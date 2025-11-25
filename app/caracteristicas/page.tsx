@@ -1,7 +1,8 @@
 "use client";
 
-export default function page() {
+import Caracteristica from "@/app/components/Caracteristica";
 
+export default function CaracteristicasPage() {
   const caracteristicas = [
     "JSX, sintaxe que mistura HTML e JS.",
     "Componentes, funções que retornam JSX.",
@@ -13,28 +14,15 @@ export default function page() {
     "Comunidade Ativa e Popularidade."
   ];
 
-  function clicar() {
-    alert("Ola!!!!!");
-  }
-
   return (
     <div className="p-6">
-      <h2 className="text-xl font-bold mb-4">
-        Características do React e Next.js
-      </h2>
+      <h2 className="text-xl font-bold mb-6">Características</h2>
 
-      <ul className="list-disc pl-6 space-y-1">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {caracteristicas.map((c, i) => (
-          <li key={i}>{c}</li>
+          <Caracteristica key={i} texto={c} index={i} />
         ))}
-      </ul>
-
-      <button
-        onClick={clicar}
-        className="mt-4 px-4 py-2 bg-blue-500 text-white rounded"
-      >
-        Clica aqui
-      </button>
+      </div>
     </div>
   );
 }
