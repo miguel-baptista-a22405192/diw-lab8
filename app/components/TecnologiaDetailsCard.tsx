@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import ContadorPersonalizado from "@/app/components/ContadorPersonalizado";
 
 interface TecnologiaDetailsProps {
   title: string;
@@ -31,6 +32,9 @@ export default function TecnologiaDetailsCard({
         <p className="text-sm">{description}</p>
 
         <p className="text-yellow-400 text-lg">⭐ {rating}/5</p>
+
+        {/* Contador de likes para a tecnologia */}
+        <ContadorPersonalizado title={title} />
 
         <Link
           href="/tecnologias"
