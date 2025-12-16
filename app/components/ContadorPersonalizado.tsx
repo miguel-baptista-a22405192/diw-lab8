@@ -22,7 +22,7 @@ export default function ContadorPersonalizado({ title }: { title: string }) {
       onClick={adicionarLike}
       className="bg-pink-300 px-3 py-1 rounded hover:bg-pink-400"
     >
-      ❤️ {likes}
+      ❤️ <div className="inline-block w-4 h-4" /> {likes}
     </button>
   );
 }
